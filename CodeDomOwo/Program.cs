@@ -10,7 +10,7 @@ namespace CodeDomOwo // Note: actual namespace depends on the project name.
     internal class Program
     {
         private const string outputFileName = "sampleOutput.cs";
-
+        
         static void Main(string[] args)
         {
             CodeCompileUnit compileUnit = new CodeCompileUnit();
@@ -18,7 +18,6 @@ namespace CodeDomOwo // Note: actual namespace depends on the project name.
 
             CodeNamespace samples = new CodeNamespace("Samples");
             samples.Imports.Add(new CodeNamespaceImport("System"));
-
 
             CodeTypeDeclaration class1 = new CodeTypeDeclaration("Class1");
             //Build the class
