@@ -8,6 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Dirkster.AvalonDock" Version="4.70.2" />
       <PackageReference Include="NodeNetwork" Version="6.0.0" />
     </ItemGroup>
 
